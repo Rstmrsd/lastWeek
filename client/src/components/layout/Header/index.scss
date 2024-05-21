@@ -1,0 +1,41 @@
+.container{
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.navbar {
+  width: 70%;
+  margin: 0px auto;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .navbar_logo{
+    h1{
+        color: aliceblue;
+    }
+  }
+}
+.navbar_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  ul{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    list-style: none;
+    li {
+      font-size: 17px;
+      gap: 10px;
+      a{
+        color: white;
+
+      }
+    }
+  }
+}
